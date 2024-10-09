@@ -60,6 +60,14 @@ h2 {
     justify-content: space-around;
     margin: 20px 0;
 }
+.big
+{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;  /* Horizontally centers the div */
+    align-items: center;      /* Vertically centers the div */
+}
 
 .act
 {
@@ -143,4 +151,8 @@ th, td {
     text-align: left;
     padding: 10px;
 }
-
+ .ClassActivities
+{
+    background-color: #ffcc66;
+    text-align: center;
+} 
