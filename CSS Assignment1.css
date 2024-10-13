@@ -1,5 +1,5 @@
-/* General Styles */
-body {
+/* the general body style */
+body { 
     font-family: 'Arial, sans-serif';
     background-color: #f9f9f9;
     margin: 0;
@@ -7,23 +7,24 @@ body {
     color: #333;
 }
 
+/* welcome class Styles */
 .welcome
 {
     text-align: center;
 }
 
-
+/* the general header style */
 header {
     background-color: #CBC3E3;
     padding: 20px;
     text-align: center;
 }
-
+/* the general h1 style */
 header h1 {
     color: #53b760;
     font-size: 36px;
 }
-
+/* the general nav style */
 nav ul {
     list-style: none;
     padding: 0;
@@ -41,6 +42,7 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
+/* the nav hovering style */
 nav ul li a:hover {
     color: #ff6699;
 }
@@ -60,6 +62,8 @@ h2 {
     justify-content: space-around;
     margin: 20px 0;
 }
+
+/* the outer div style */
 .big
 {
     height: 100%;
@@ -69,6 +73,7 @@ h2 {
     align-items: center;      /* Vertically centers the div */
 }
 
+/* the inner div style */
 .act
 {
     border: 5px solid #5f677d;
@@ -152,7 +157,8 @@ th, td {
     text-align: left;
     padding: 10px;
 }
- .ClassActivities
+
+.ClassActivities
 {
     background-color: #CBC3E3;
     text-align: center;
