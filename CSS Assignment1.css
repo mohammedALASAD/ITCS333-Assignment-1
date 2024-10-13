@@ -14,13 +14,13 @@ body {
 
 
 header {
-    background-color: #ffcc66;
+    background-color: #CBC3E3;
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
-    color: #ff6699;
+    color: #53b760;
     font-size: 36px;
 }
 
@@ -51,7 +51,7 @@ main {
 }
 
 h2 {
-    color: #ff6699;
+    color: #53b760;
 }
 
 /* Gallery */
@@ -89,7 +89,7 @@ h2 {
 
 /* Footer */
 footer {
-    background-color: #ffcc66;
+    background-color: #CBC3E3;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
@@ -124,7 +124,7 @@ table {
 }
 
 thead {
-    background-color: #ffcc66;
+    background-color: #CBC3E3;
 }
 
 thead th {
@@ -153,6 +153,6 @@ th, td {
 }
  .ClassActivities
 {
-    background-color: #ffcc66;
+    background-color: #CBC3E3;
     text-align: center;
 } 
