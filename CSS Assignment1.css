@@ -1,159 +1,153 @@
 /* General Styles */
 body {
-    font-family: 'Arial, sans-serif';
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
-    color: #333;
+    font-family: 'Arial, sans-serif';  /* uses this font for the page */
+    background-color: #f9f9f9;         /* Light gray background color */
+    margin: 0;                         
+    padding: 0;                        
+    color: #333;                       
 }
 
-.welcome
-{
-    text-align: center;
+.welcome {
+    text-align: center;                /* Centers the text in the welcome class */
 }
-
 
 header {
-    background-color: #CBC3E3;
-    padding: 20px;
-    text-align: center;
+    background-color: #CBC3E3;        /* Light purple background for the header */
+    padding: 20px;                   
+    text-align: center;                
 }
 
 header h1 {
-    color: #53b760;
-    font-size: 36px;
+    color: #53b760;                  
+    font-size: 36px;                  /* 36 font size for the heading */
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+    list-style: none;                  
+    padding: 0;                        
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inline;                   /* shows list items in a single line */
+    margin-right: 20px;               /* Adds space between list items */
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
-    transition: color 0.3s ease;
+    text-decoration: none;             
+    color: #333;                       /* link color */
+    font-size: 18px;                   
+    transition: color 0.3s ease;      /* Smooth transition for color change on hover */
 }
 
 nav ul li a:hover {
-    color: #ff6699;
+    color: #ff6699;                   /* Changes link color on hover */
 }
 
 /* Main Content */
 main {
-    padding: 20px;
+    padding: 20px;                    /* Adds padding around main content */
 }
 
 h2 {
-    color: #53b760;
+    color: #53b760;                   
 }
 
 /* Gallery */
 .gallery {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
-}
-.big
-{
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;  /* Horizontally centers the div */
-    align-items: center;      /* Vertically centers the div */
+    display: flex;                    /* Uses flexbox for layout */
+    justify-content: space-around;   
+    margin: 20px 0;                  /* Adds vertical margin */
 }
 
-.act
-{
-    border: 5px solid #5f677d;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    display: inline-block;
+.big {
+    height: 100%;                     
+    margin: 0;                        
+    display: flex;                    /* Enables flexbox for centering */
+    justify-content: center;         
+    align-items: center;              
 }
 
+.act {
+    border: 5px solid #5f677d;       /* Adds border around activity boxes */
+    border-radius: 20px;             
+    padding: 10px;                   
+    margin: 10px;                   
+    width: 300px;                    
+    height: 300px;                   
+    text-align: center;              /* Centers text inside the boxes */
+    display: inline-block;           /* Allows boxes to line up next to each other */
+}
 
 .gallery img {
-    width: 30%;
-    height: auto;
+    width: 30%;                      /* Sets the width of gallery images */
+    height: auto;                   
 }
 
 /* Footer */
 footer {
-    background-color: #CBC3E3;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    background-color: #CBC3E3;      /* Light purple background for the footer */
+    text-align: center;              /* Centers text in the footer */
+    padding: 10px 0;                
+    margin-top: 20px;             
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 768px) {         /* Styles for screens smaller than 768px */
     nav ul li {
-        display: block;
-        margin-bottom: 10px;
+        display: block;              
+        margin-bottom: 10px;       
     }
 
     .gallery {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column;      
+        align-items: center;        
     }
 
     .gallery img {
-        width: 80%;
-        margin-bottom: 10px;
+        width: 80%;                  /* Increases image width for smaller screens */
+        margin-bottom: 10px;        
     }
 }
 
-
-
 /* Parent Resources Table */
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    background-color: #f2f2f2;
+    width: 100%;                     
+    border-collapse: collapse;       
+    margin: 20px 0;                 
+    background-color: #f2f2f2;       
 }
 
 thead {
-    background-color: #CBC3E3;
+    background-color: #CBC3E3;       /* Light purple background for table header */
 }
 
 thead th {
-    padding: 15px;
-    text-align: left;
-    font-weight: bold;
-    color: #333;
+    padding: 15px;                   /* Adds padding to header cells */
+    text-align: left;                /* Aligns text to the left */
+    font-weight: bold;              
+    color: #333;                     /* Sets text color for header */
 }
 
 tbody tr:nth-child(even) {
-    background-color: #7ac57c;
+    background-color: #7ac57c;       /* change row colors for the even cells */
 }
 
 tbody td {
-    padding: 15px;
-    border-bottom: 1px solid #0e0505;
-    border-radius: 9px;
+    padding: 15px;                   
+    border-bottom: 1px solid #0e0505; 
+    border-radius: 9px;            
 }
 
 tbody tr:hover {
-    background-color: #bcbab5;
+    background-color: #bcbab5;       /* Changes background color of row on hover */
 }
 
 th, td {
-    text-align: left;
-    padding: 10px;
+    text-align: left;                
+    padding: 10px;                   
 }
- .ClassActivities
-{
-    background-color: #CBC3E3;
-    text-align: center;
-} 
+
+.ClassActivities {
+    background-color: #CBC3E3;       /* Light purple background for class activities */
+    text-align: center;              /* Centers text within the class activities */
+}
