@@ -135,16 +135,17 @@ thead th {
 }
 
 tbody tr:nth-child(even) {
-    background-color: #ffebcc;
+    background-color: #7ac57c;
 }
 
 tbody td {
     padding: 15px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #0e0505;
+    border-radius: 9px;
 }
 
 tbody tr:hover {
-    background-color: #ffe5b4;
+    background-color: #bcbab5;
 }
 
 th, td {
